@@ -43,7 +43,7 @@ XXXXX
 
 
 
-| SampleID | Target microbe | microbe1 | microbe2 | microbe3 |
+| SampleID | target microbe | microbe1 | microbe2 | microbe3 |
 | :------: | :------------: | :------: | :------: | :------: |
 | Sample1  |     0.0001     |  0.004   |  0.001   |  0.006   |
 | Sample2  |     0.0002     |  0.005   |  0.002   |  0.007   |
