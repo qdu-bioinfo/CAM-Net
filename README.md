@@ -6,12 +6,13 @@
 - [Package requirement](#package-requirement)
 - [Installation environment](#installation-environment)
 - [Example](#example)
+- [Result](#result)
 - [Supplementary](#supplementary)
 - [Contact](#contact)
 
 ## Introduction
 
-CAM-Net
+CAM-Net can output the optimal consortium of the target microbe, which represents the closest group of the target microbe.
 
 ## Package requirement
 
@@ -39,9 +40,7 @@ openpyxl
 
 ## Example
 
-XXXXX
-
-
+The input format is as follows:
 
 | SampleID | target microbe | microbe1 | microbe2 | microbe3 |
 | :------: | :------------: | :------: | :------: | :------: |
@@ -49,15 +48,18 @@ XXXXX
 | Sample2  |     0.0002     |  0.005   |  0.002   |  0.007   |
 | Sample2  |     0.0003     |  0.0006  |  0.003   |  0.0008  |
 
-
+The **command** is as follows:
+here, "**-i**" represents the input abundance table CSV file, "**-t**" represents the name of the target microbe, and "**-o**" represents the output results folder.
 
 ```
-XXXX
+cam-net -i example/example.csv -t s__Akkermansia_muciniphila -o results
 ```
 
+## Result
 
+The output file "**summary.csv**" will contain the following information: 1. Target microbe; 2. Optimal consortium of target microbe; 3. r-values of the predicted target microbe from the optimal consortium.
 
-XXXXX
+Additionally, the output file "**edges.csv**" will contain: network edges and weights.
 
 ## Supplementary
 
