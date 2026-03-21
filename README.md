@@ -32,7 +32,7 @@ openpyxl
 ## Installation environment
 
 ```
-1.git clone https://github.com/qdu-bioinfo/CAM-Net.git
+1.Download the ".whl" file from GitHub.
 3.conda create -n camnet python=3.10
 4.conda activate camnet
 5.pip install cam_net-1.0-cp310-cp310-linux_x86_64.whl
