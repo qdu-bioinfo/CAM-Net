@@ -12,7 +12,7 @@
 
 ## Introduction
 
-CAM-Net can output the optimal consortium of the target microbe, which represents the closest group of the target microbe.
+CAM-Net identifies an optimal consortium for a target species, representing its most stable and ecologically meaningful neighborhood rather than a collection of isolated pairwise links.
 
 ## Package requirement
 
