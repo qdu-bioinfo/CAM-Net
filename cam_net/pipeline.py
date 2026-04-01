@@ -24,7 +24,7 @@ def run_pipeline(
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # 读取 CSV
+    # input CSV
     df = pd.read_csv(csv_path)
     if 'SampleID' not in df.columns:
         df = pd.read_csv(csv_path, index_col=0)
@@ -35,7 +35,7 @@ def run_pipeline(
 
     numeric_df = df.drop(columns=['SampleID']).select_dtypes(include='number')
 
-    # 建图
+    # build graph
     graph, signal_graph = gb.build_graph_from_abundance_cpp(
         abd_df=numeric_df.values,
         features=numeric_df.columns.tolist(),
@@ -52,7 +52,7 @@ def run_pipeline(
     pd.DataFrame(edges, columns=["Node1", "Node2", "Weight"]).to_csv(
         output_dir / "edges.csv", index=False
     )
-    # 找团
+    # find optimal consortium
     cliques = cf.find_max_cliques_with_seed_identical(graph, seed_taxa)
     if not cliques or not cliques[0]:
         print("No group containing the current microbe was found.")
@@ -61,7 +61,7 @@ def run_pipeline(
     max_clique = cliques[0]
     features = [x for x in max_clique if x != seed_taxa]
 
-    # 全样本线性回归
+    # optimal consortium predicted target microbe
     model = LinearRegression(n_jobs=-1)
     X = df[features]
     y = df[seed_taxa]
@@ -70,7 +70,6 @@ def run_pipeline(
 
     pearson = pearson_r(y, y_pred)
 
-    # 保存预测结果
     pred_df = pd.DataFrame({
         'SampleID': df['SampleID'],
         'True': y,
@@ -78,11 +77,11 @@ def run_pipeline(
     })
     pred_df.to_csv(output_dir / "predictions.csv", index=False)
 
-    # PDF 图
+    # PDF
     with PdfPages(output_dir / "prediction_plot.pdf") as pdf:
         plot_prediction(y, y_pred, "Current Microbe Prediction", pdf)
 
-    # 保存团信息
+    # results
     pd.DataFrame({
         'Seed': [seed_taxa],
         'Clique_Members': [", ".join(max_clique)],
@@ -90,7 +89,7 @@ def run_pipeline(
         'r-value': [pearson]
     }).to_csv(output_dir / "summary.csv", index=False)
 
-    # 返回用于命令行显示
+    
     return pd.DataFrame({
         'Seed_Taxon': [seed_taxa],
         'Clique_Members': [", ".join(sorted(max_clique))],
