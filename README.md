@@ -63,6 +63,8 @@ Additionally, the output file "**edges.csv**" will contain: network edges and we
 
 ## Datasets
 
+All data supporting the findings of this study are derived from publicly available sources. Specifically, microbiome datasets and their source are hosted on the Microbiome Search Engine (MSE) [1] platform at http://bioinfo-ai.cn/. Detailed information about the dataset can be found at https://github.com/qdu-bioinfo/CAM-Net/tree/main/input
+
 |      Dataset      |                             Link                             |
 | :---------------: | :----------------------------------------------------------: |
 |     Asia_WGS      | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Asia_WGS.7z |
@@ -71,8 +73,6 @@ Additionally, the output file "**edges.csv**" will contain: network edges and we
 | North America_WGS | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/North%20America_WGS.7z |
 |     Asia_16S      | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Asia_16S.7z |
 |    Europe_16S     | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Europe_16S.7z |
-
-All data supporting the findings of this study are derived from publicly available sources. Specifically, microbiome datasets and their source are hosted on the Microbiome Search Engine (MSE) [1] platform at http://bioinfo-ai.cn/. Detailed information about the dataset can be found at https://github.com/qdu-bioinfo/CAM-Net/tree/main/input
 
 [1] Jing et al. *mSystems*. 2021
 
