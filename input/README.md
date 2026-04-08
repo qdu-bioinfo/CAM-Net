@@ -1,6 +1,6 @@
 # Datasets
 
-The datasets utilized in this study, consisting of human gut samples, were retrieved from the MSE (Microbiome Search Engine) [1] and are summarized in **Table 1**. For WGS sequences, taxonomic annotation was performed using MetaPhlAn (Metagenomic Phylogenetic Analysis) [2] based on the RefSeq (Reference Sequence) database [25], with analyses restricted exclusively to bacterial taxonomic profiles. For 16S rRNA amplicon data, analysis was conducted using the PMS (Parallel-Meta Suite) [22]: sequences underwent ASV (Amplicon Sequence Variant) denoising, followed by OTU (Operational Taxonomic Unit) clustering based on the denoised ASVs and mapping to the Greengenes (v13.8) [23] reference database.
+The datasets utilized in this study, consisting of human gut samples, were retrieved from the MSE (Microbiome Search Engine) [1]. For WGS sequences, taxonomic annotation was performed using MetaPhlAn (Metagenomic Phylogenetic Analysis) [2] based on the RefSeq (Reference Sequence) database [3], with analyses restricted exclusively to bacterial taxonomic profiles. For 16S rRNA amplicon data, analysis was conducted using the PMS (Parallel-Meta Suite) [4]: sequences underwent ASV (Amplicon Sequence Variant) denoising, followed by OTU (Operational Taxonomic Unit) clustering based on the denoised ASVs and mapping to the Greengenes (v13.8) [5] reference database.
 
 |    **Dataset**    | **#  of samples** | **#  of studies** |        **Type**        |                             Link                             |
 | :---------------: | :---------------: | :---------------: | :--------------------: | :----------------------------------------------------------: |
@@ -15,7 +15,11 @@ The datasets utilized in this study, consisting of human gut samples, were retri
 
 [2] Manghi et al. *Cell Reports*. 2023
 
-[3]
+[3] Goldfarb et al. *Nucleic Acids Research*. 2025
+
+[4] Chen et al. *iMeta*. 2022
+
+[5] DeSantis et al. *Applied* and *Environmental Microbiology*. 2006
 
 ## Contact
 
