@@ -63,7 +63,7 @@ Additionally, the output file "**edges.csv**" will contain: network edges and we
 
 ## Datasets
 
-All data supporting the findings of this study are derived from publicly available sources. Specifically, microbiome datasets and their source are hosted on the Microbiome Search Engine (MSE) [1] platform at http://bioinfo-ai.cn/. Detailed information about the dataset can be found at https://github.com/qdu-bioinfo/CAM-Net/tree/main/input
+All data supporting the findings of this study are derived from publicly available sources. Specifically, microbiome datasets and their source are hosted on the Microbiome Search Engine (MSE) [1] platform at http://bioinfo-ai.cn/. Detailed information about the dataset can be found at https://github.com/qdu-bioinfo/CAM-Net/tree/main/input.
 
 |      Dataset      |                             Link                             |
 | :---------------: | :----------------------------------------------------------: |
