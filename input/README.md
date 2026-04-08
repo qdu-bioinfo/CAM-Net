@@ -1,6 +1,6 @@
 # Datasets
 
-All data supporting the findings of this study are derived from publicly available sources. Specifically, microbiome datasets and their source are hosted on the Microbiome Search Engine (MSE) [1] platform at http://bioinfo-ai.cn/, and the input files for CAM-Net have been deposited in the GitHub repository at https://github.com/qdu-bioinfo/CAM-Net/tree/main/input.
+The datasets utilized in this study, consisting of human gut samples, were retrieved from the MSE (Microbiome Search Engine) [1] and are summarized in **Table 1**. For WGS sequences, taxonomic annotation was performed using MetaPhlAn (Metagenomic Phylogenetic Analysis) [2] based on the RefSeq (Reference Sequence) database [25], with analyses restricted exclusively to bacterial taxonomic profiles. For 16S rRNA amplicon data, analysis was conducted using the PMS (Parallel-Meta Suite) [22]: sequences underwent ASV (Amplicon Sequence Variant) denoising, followed by OTU (Operational Taxonomic Unit) clustering based on the denoised ASVs and mapping to the Greengenes (v13.8) [23] reference database.
 
 |    **Dataset**    | **#  of samples** | **#  of studies** |        **Type**        |                             Link                             |
 | :---------------: | :---------------: | :---------------: | :--------------------: | :----------------------------------------------------------: |
@@ -11,7 +11,11 @@ All data supporting the findings of this study are derived from publicly availab
 |     Asia_16S      |    *n*=10,223     |      *n*=18       | 16S rRNA gene amplicon | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Asia_16S.7z |
 |    Europe_16S     |     *n*=6,377     |      *n*=28       | 16S rRNA gene amplicon | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Europe_16S.7z |
 
-[1] Jing G, Liu L, Wang Z et al. *mSystems* 2021
+[1] Jing et al. *mSystems*. 2021
+
+[2] Manghi et al. *Cell Reports*. 2023
+
+[3]
 
 ## Contact
 
