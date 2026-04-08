@@ -57,16 +57,27 @@ cam-net -i example/example.csv -t s__Akkermansia_muciniphila -o results
 
 ## Result
 
-The output file "**summary.csv**" will contain the following information: 1. Target microbe; 2. Optimal consortium of target microbe; 3. r-values of the predicted target microbe from the optimal consortium.
+The output file "**summary.csv**" will contain the following information: 1. Target microbe; 2. Optimal consortium of target microbe; 3. *R* values of the predicted target microbe from the optimal consortium.
 
 Additionally, the output file "**edges.csv**" will contain: network edges and weights.
 
-## Supplementary
+## Datasets
 
-[**Real Dataset 1**](https://github.com/qdu-bioinfo/XX) contains 10,223 Asia and 6377 Europe 16S amplicon samples originating from Microbiome Search Engine (MSE).
+|      Dataset      | Link |
+| :---------------: | :--: |
+|     Asia_WGS      |      |
+|   Australia_WGS   |      |
+|    Europe_WGS     |      |
+| North America_WGS |      |
+|     Asia_16S      |      |
+|    Europe_16S     |      |
 
-[**Real Dataset 2**](https://github.com/qdu-bioinfo/XXXX) contains 961 Asia, 397 Australia, 2547 Europe and 5046 North America WGS Metagenome samples originating from Microbiome Search Engine (MSE).
+
+
+All datasets
+
+
 
 ## Contact
 
-All problems please contact CAM-Net development team: **Dr. Su,Xiaoquan**  Email: [**suxq@qdu.edu.cn**](mailto:suxq@qdu.edu.cn)
+All problems please contact CAM-Net development team: **Dr. Su, Xiaoquan**  Email: [**suxq@qdu.edu.cn**](mailto:suxq@qdu.edu.cn)
