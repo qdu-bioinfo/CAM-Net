@@ -18,7 +18,7 @@
 
 [4] Chen et al. *iMeta*. 2022
 
-[5] DeSantis et al. *Applied* and *Environmental Microbiology*. 2006
+[5] DeSantis et al. *Applied* *and* *Environmental Microbiology*. 2006
 
 ## Contact
 
