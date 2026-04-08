@@ -33,11 +33,12 @@ openpyxl
 
 ```
 1.Download the ".whl" file from GitHub.
-Linux system selection: cam_net-1.0-cp310-cp310-linux_x86_64.whl
-MacOS system selection: cam_net-1.0-cp310-cp310-macosx_11_0_arm64.whl
 2.conda create -n camnet python=3.10
 3.conda activate camnet
 4.pip install cam_net-1.0-cp310-cp310-linux_x86_64.whl
+
+Linux system selection: cam_net-1.0-cp310-cp310-linux_x86_64.whl
+MacOS system selection: cam_net-1.0-cp310-cp310-macosx_11_0_arm64.whl
 ```
 
 ## **Usage example**
