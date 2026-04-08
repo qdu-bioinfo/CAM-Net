@@ -48,8 +48,15 @@ The input format is as follows:
 | Sample2  |     0.0002     |  0.005   |  0.002   |  0.007   |
 | Sample2  |     0.0003     |  0.0006  |  0.003   |  0.0008  |
 
+
+
 The **command** is as follows:
-here, "**-i**" represents the input abundance table CSV file, "**-t**" represents the name of the target microbe, and "**-o**" represents the output results folder.
+
+| Command parameters |                        Representative                        |
+| :----------------: | :----------------------------------------------------------: |
+|         -i         |   represents the input microbe abundance table ".csv" file   |
+|         -t         | represents the input table contains the names of the target microbe (e.g., s__Akkermansia_muciniphila) |
+|         -o         |       represents the location of output results folder       |
 
 ```
 cam-net -i example/example.csv -t s__Akkermansia_muciniphila -o results
