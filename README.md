@@ -5,8 +5,8 @@
 - [Introduction](#introduction)
 - [Package requirement](#package-requirement)
 - [Installation environment](#installation-environment)
-- [Example](#example)
-- [Result](#result)
+- [Usage example](#usage-example)
+- [Results](#results)
 - [Datasets](#datasets)
 - [Contact](#contact)
 
@@ -38,7 +38,7 @@ openpyxl
 5.pip install cam_net-1.0-cp310-cp310-linux_x86_64.whl
 ```
 
-## Example
+## **Usage example**
 
 The input format is as follows:
 
@@ -62,7 +62,7 @@ The **command** is as follows:
 cam-net -i example/example.csv -t s__Akkermansia_muciniphila -o results
 ```
 
-## Result
+## Results
 
 | Output file |                           Content                            |
 | :---------: | :----------------------------------------------------------: |
