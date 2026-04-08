@@ -71,7 +71,7 @@ cam-net -i example/example.csv -t s__Akkermansia_muciniphila -o results
 
 ## Datasets
 
-All data supporting the findings of this study are derived from publicly available sources. Specifically, microbiome datasets and their source are hosted on the [Microbiome Search Engine](http://bioinfo-ai.cn/) (MSE) [1] platform. Detailed information about the dataset is available at here: https://github.com/qdu-bioinfo/CAM-Net/tree/main/input.
+All data supporting the findings of this study are derived from publicly available sources. Specifically, microbiome datasets and their source are hosted on the [MSE](http://bioinfo-ai.cn/) (Microbiome Search Engine) [1] platform. Detailed information about the dataset is available at here: https://github.com/qdu-bioinfo/CAM-Net/tree/main/input.
 
 |                         **Dataset**                          | **#  of samples** | **#  of studies** |        **Type**        |
 | :----------------------------------------------------------: | :---------------: | :---------------: | :--------------------: |
