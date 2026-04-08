@@ -4,7 +4,7 @@
 
 2. for WGS sequences, taxonomic annotation was performed using MetaPhlAn (Metagenomic Phylogenetic Analysis) [2] based on the RefSeq (Reference Sequence) database [3], with analyses restricted exclusively to bacterial taxonomic profiles.
 3. for 16S rRNA amplicon data, analysis was conducted using the PMS (Parallel-Meta Suite) [4]: sequences underwent ASV (Amplicon Sequence Variant) denoising, followed by OTU (Operational Taxonomic Unit) clustering based on the denoised ASVs and mapping to the Greengenes (v13.8) [5] reference database. 
-4. finally, to mitigate inter-sample heterogeneity, both 16S rRNA and WGS taxonomic profiles were log-transformed prior to downstream analysis (refer to *Experimental design* for details about log-transformation in the main manuscript).
+4. finally, to mitigate inter-sample heterogeneity, both 16S rRNA and WGS taxonomic profiles were log-transformed prior to downstream analysis (refer to *Experimental design* for details about log-transformation in the main manuscript). Here, the suffixes "original relative abundance" and "log-transformation" indicate raw abundance and log10-transformed abundance, respectively.
 
 |    **Dataset**    | **#  of samples** | **#  of studies** |        **Type**        |                             Link                             |
 | :---------------: | :---------------: | :---------------: | :--------------------: | :----------------------------------------------------------: |
