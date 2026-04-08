@@ -32,6 +32,9 @@ openpyxl
 ## Installation
 
 ```
+Linux system selection: cam_net-1.0-cp310-cp310-linux_x86_64.whl
+MacOS system selection: cam_net-1.0-cp310-cp310-macosx_11_0_arm64.whl
+
 1.Download the ".whl" file from GitHub.
 3.conda create -n camnet python=3.10
 4.conda activate camnet
@@ -71,7 +74,7 @@ cam-net -i example/example.csv -t s__Akkermansia_muciniphila -o results
 
 ## Datasets
 
-All data supporting the findings of this study are derived from publicly available sources. Specifically, microbiome datasets and their source are hosted on the MSE (Microbiome Search Engine; http://bioinfo-ai.cn/) [1] platform. Detailed information about the dataset is available at [here](https://github.com/qdu-bioinfo/CAM-Net/tree/main/input).
+All data supporting the findings of this study are derived from publicly available sources. Specifically, microbiome datasets and their source are hosted on the MSE (Microbiome Search Engine; http://bioinfo-ai.cn) [1] platform. Detailed information about the dataset is available at [here](https://github.com/qdu-bioinfo/CAM-Net/tree/main/input).
 
 |                         **Dataset**                          | **#  of samples** | **#  of studies** |        **Type**        |
 | :----------------------------------------------------------: | :---------------: | :---------------: | :--------------------: |
