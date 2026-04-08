@@ -2,11 +2,11 @@
 
 1. The datasets utilized in this study, consisting of human gut samples, were retrieved from the MSE (Microbiome Search Engine) [1].
 
-2. For WGS sequences, taxonomic annotation was performed using MetaPhlAn (Metagenomic Phylogenetic Analysis) [2] based on the RefSeq (Reference Sequence) database [3], with analyses restricted exclusively to bacterial taxonomic profiles.
+1. For WGS sequences, taxonomic annotation was performed using MetaPhlAn (Metagenomic Phylogenetic Analysis) [2] based on the RefSeq (Reference Sequence) database [3], with analyses restricted exclusively to bacterial taxonomic profiles.
 
-3. For 16S rRNA amplicon data, analysis was conducted using the PMS (Parallel-Meta Suite) [4]: sequences underwent ASV (Amplicon Sequence Variant) denoising, followed by OTU (Operational Taxonomic Unit) clustering based on the denoised ASVs and mapping to the Greengenes (v13.8) [5] reference database. 
+2. For 16S rRNA amplicon data, analysis was conducted using the PMS (Parallel-Meta Suite) [4]: sequences underwent ASV (Amplicon Sequence Variant) denoising, followed by OTU (Operational Taxonomic Unit) clustering based on the denoised ASVs and mapping to the Greengenes (v13.8) [5] reference database. 
 
-4. Finally, to mitigate inter-sample heterogeneity, both 16S rRNA and WGS taxonomic profiles were log-transformed prior to downstream analysis. Here, the suffixes "original relative abundance" and "log-transformation" indicate raw abundance and log10-transformed abundance, respectively.
+3. Finally, to mitigate inter-sample heterogeneity, both 16S rRNA and WGS taxonomic profiles were log-transformed prior to downstream analysis. Here, the suffixes "original relative abundance" and "log-transformation" indicate raw abundance and log10-transformed abundance, respectively.
 
    
 
