@@ -63,14 +63,14 @@ Additionally, the output file "**edges.csv**" will contain: network edges and we
 
 ## Datasets
 
-|      Dataset      | Link |
-| :---------------: | :--: |
-|     Asia_WGS      |      |
-|   Australia_WGS   |      |
-|    Europe_WGS     |      |
-| North America_WGS |      |
-|     Asia_16S      |      |
-|    Europe_16S     |      |
+|      Dataset      |                             Link                             |
+| :---------------: | :----------------------------------------------------------: |
+|     Asia_WGS      | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Asia_WGS.7z |
+|   Australia_WGS   | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Australia_WGS.7z |
+|    Europe_WGS     | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Europe_WGS.7z |
+| North America_WGS | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/North%20America_WGS.7z |
+|     Asia_16S      | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Asia_16S.7z |
+|    Europe_16S     | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Europe_16S.7z |
 
 
 
