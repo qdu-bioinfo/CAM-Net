@@ -4,7 +4,7 @@
 
 - [Introduction](#introduction)
 - [Package requirement](#package-requirement)
-- [Installation environment](#installation-environment)
+- [Installation](#installation)
 - [Usage example](#usage-example)
 - [Results](#results)
 - [Datasets](#datasets)
