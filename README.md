@@ -48,6 +48,8 @@ The input format is as follows:
 | Sample2  |     0.0002     |  0.005   |  0.002   |  0.007   |
 | Sample2  |     0.0003     |  0.0006  |  0.003   |  0.0008  |
 
+
+
 The **command** is as follows:
 
 | Command parameters |                        Representative                        |
