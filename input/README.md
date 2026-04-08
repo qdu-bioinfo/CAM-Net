@@ -1,6 +1,6 @@
 # Datasets
 
-1. The datasets utilized in this study, consisting of human gut samples, were retrieved from the MSE (Microbiome Search Engine) [1].
+1. The datasets utilized in this study, consisting of human gut samples, were retrieved from the [MSE](http://bioinfo-ai.cn/) (Microbiome Search Engine) [1].
 
 1. For WGS sequences, taxonomic annotation was performed using MetaPhlAn (Metagenomic Phylogenetic Analysis) [2] based on the RefSeq (Reference Sequence) database [3], with analyses restricted exclusively to bacterial taxonomic profiles.
 
