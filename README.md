@@ -48,8 +48,6 @@ The input format is as follows:
 | Sample2  |     0.0002     |  0.005   |  0.002   |  0.007   |
 | Sample2  |     0.0003     |  0.0006  |  0.003   |  0.0008  |
 
-
-
 The **command** is as follows:
 
 | Command parameters |                        Representative                        |
@@ -64,9 +62,10 @@ cam-net -i example/example.csv -t s__Akkermansia_muciniphila -o results
 
 ## Result
 
-The output file "**summary.csv**" will contain the following information: 1. Target microbe; 2. Optimal consortium of target microbe; 3. *R* values of the predicted target microbe from the optimal consortium.
-
-Additionally, the output file "**edges.csv**" will contain: network edges and weights.
+| Output file |                           Content                            |
+| :---------: | :----------------------------------------------------------: |
+| summary.csv | 1. the name of the target microbe you input<br />2. optimal consortium of target microbe<br />3. *R* values of the predicted target microbe from the optimal consortium |
+|  edges.csv  |                  network edges and weights                   |
 
 ## Datasets
 
