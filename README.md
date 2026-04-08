@@ -81,16 +81,7 @@ All data supporting the findings of this study are derived from publicly availab
 | [North America_WGS](https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/North%20America_WGS.7z) |     *n*=5,045     |      *n*=21       |    Metagenomic WGS     |
 | [Asia_16S](https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Asia_16S.7z) |    *n*=10,223     |      *n*=18       | 16S rRNA gene amplicon |
 | [Europe_16S](https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Europe_16S.7z) |     *n*=6,377     |      *n*=28       | 16S rRNA gene amplicon |
-=======
-|      Dataset      |                             Link                             |
-| :---------------: | :----------------------------------------------------------: |
-|     [Asia_WGS](https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Asia_WGS.7z)      | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Asia_WGS.7z |
-|   Australia_WGS   | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Australia_WGS.7z |
-|    Europe_WGS     | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Europe_WGS.7z |
-| North America_WGS | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/North%20America_WGS.7z |
-|     Asia_16S      | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Asia_16S.7z |
-|    Europe_16S     | https://github.com/qdu-bioinfo/CAM-Net/blob/main/input/Europe_16S.7z |
->>>>>>> 2c4d2f33a9f6fed43036db73e65440a93d39bae0
+
 
 [1] Jing et al. *mSystems*. 2021
 
