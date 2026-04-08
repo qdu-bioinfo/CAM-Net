@@ -29,7 +29,7 @@ typer
 openpyxl
 ```
 
-## Installation environment
+## Installation
 
 ```
 1.Download the ".whl" file from GitHub.
