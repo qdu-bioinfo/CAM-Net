@@ -193,10 +193,3 @@ py::list find_max_cliques_with_seed_identical(const py::dict& graph, const std::
     outer.append(inner);
     return outer;
 }
-
-PYBIND11_MODULE(clique_finder_identical, m) {
-    m.doc() = "C++ Bron–Kerbosch clique finder, logically identical to the Python script";
-    m.def("find_max_cliques_with_seed_identical", &find_max_cliques_with_seed_identical,
-          py::arg("graph"), py::arg("seed"),
-          "Find the global maximum clique containing `seed`, replicating the Python logic identically.");
-}

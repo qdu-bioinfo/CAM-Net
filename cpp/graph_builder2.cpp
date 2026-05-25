@@ -200,14 +200,3 @@ std::pair<Graph, Graph> build_graph_wrapper(
     }
     return build_graph_from_abundance(abundance_matrix, features, seed_taxa, seed_quantile, n_random_pairs, random_seed);
 }
-
-PYBIND11_MODULE(graph_builder2, m) {
-    m.doc() = "C++ implementation of build_graph_from_abundance using Pearson correlation (signed, abs threshold)";
-    m.def("build_graph_from_abundance_cpp", &build_graph_wrapper, "Builds graph using Pearson, with signed weights and absolute threshold",
-          py::arg("abd_df"),
-          py::arg("features"),
-          py::arg("seed_taxa"),
-          py::arg("seed_quantile") = 0.99,
-          py::arg("n_random_pairs") = 10000,
-          py::arg("random_seed") = 42);
-}
