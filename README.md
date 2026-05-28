@@ -12,7 +12,9 @@
 
 ## Introduction
 
-CAM-Net identifies an optimal consortium for a target microbe, representing its most stable and ecologically meaningful neighborhood rather than a collection of isolated pairwise links.
+1. CAM-Net introduces a context-aware network framework that identifies an optimal microbial consortium by modeling community context rather than relying on isolated pairwise correlations. 
+2. The optimal consortium paradigm enables robust ecological inference, distinguishing stable indigenous microbes from transient exogenous species while substantially reducing spurious associations. 
+3. Large-scale validation across over 25,000 gut microbiomes demonstrates that CAM-Net provide superior biological reliability for microbial interaction discovery. 
 
 ## Package requirement
 
