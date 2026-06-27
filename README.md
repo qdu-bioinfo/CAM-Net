@@ -57,14 +57,14 @@ The input format is as follows:
 
 The **command** is as follows:
 
-| Command parameters |                        Representative                        |
-| :----------------: | :----------------------------------------------------------: |
-|         -i         |   represents the input microbe abundance table ".csv" file   |
-|         -t         | represents the input table contains the names of the target microbe (e.g., s__Akkermansia_muciniphila) |
-|         -o         |       represents the location of output results folder       |
+|   Command   parameters  |                        Representative                        |
+| :---------------------: | :----------------------------------------------------------: |
+|         --input         |   represents the input microbe abundance table ".csv" file   |
+|         --target        | represents the input table contains the names of the target microbe (e.g., s__Akkermansia_muciniphila) |
+|         --output        |       represents the location of output results folder       |
 
 ```
-cam-net -i example/example.csv -t s__Akkermansia_muciniphila -o results
+cam-net --input example/example.csv --target s__Akkermansia_muciniphila --output results
 ```
 
 ## Results
