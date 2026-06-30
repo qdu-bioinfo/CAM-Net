@@ -8,6 +8,7 @@
 - [Usage example](#usage-example)
 - [Results](#results)
 - [Datasets](#datasets)
+- [Citation](#citation)
 - [Contact](#contact)
 
 ## Introduction
@@ -89,6 +90,10 @@ All data supporting the findings of this study are derived from publicly availab
 
 
 [1] Jing et al. *mSystems*. 2021
+
+## Citation
+
+Zhang J, Xu W, Xing J, Sun Y, Huang S, Su X, CAM-Net: a context-aware network for identifying reliable microbial relations via optimal consortium, Briefings in Bioinformatics, 2026
 
 ## Contact
 
